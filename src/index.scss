@@ -1,0 +1,18 @@
+$theme-colors: (
+  'primary': #ffaf29,
+  'secondary': #3bff29,
+  'success': #10ad5a,
+  'info': #17d0f1,
+  'warning': #db5d09,
+  'danger': #d82121,
+  'light': #fbfdff,
+  'dark': #252734,
+);
+
+// $enable-gradients: true;
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap';
+body {
+  background-color: $dark;
+}
