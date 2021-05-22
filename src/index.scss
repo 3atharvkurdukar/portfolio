@@ -1,11 +1,11 @@
 $theme-colors: (
   'primary': #ffaf29,
-  'secondary': #3bff29,
+  'secondary': #fbfdff,
   'success': #10ad5a,
   'info': #17d0f1,
   'warning': #db5d09,
   'danger': #d82121,
-  'light': #fbfdff,
+  'light': #bec7cf,
   'dark': #252734,
 );
 
@@ -13,6 +13,14 @@ $theme-colors: (
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
 body {
+  font-family: 'Montserrat', sans-serif;
   background-color: $dark;
+}
+
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
